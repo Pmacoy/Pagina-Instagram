@@ -116,17 +116,19 @@ body {
 }
 
 .app-download {
-    height: 4rem;
+    height: 3rem;
     width: 10rem;
     background-size: cover;
 }
 
 .app-download:nth-child(1) {
     background-image: url("./imagens/apple-store-button.png");
+    border-radius: 5px;
 }
 
 .app-download:nth-child(2) {
     background-image: url("./imagens/googleplay.png");
+    height: 4.1rem;
 }
 
 /* media queries */
